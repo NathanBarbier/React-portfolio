@@ -4,6 +4,7 @@ import Lien from "./lien.js";
 import Projet from "./projets.js";
 import GitHub from '../github-mark-white.png';
 import logoStoriesHelper from '../storiesHelper.png'
+import farmitoo from '../farmitoo.png'
 
 const formations = [
     {id : 0, titre : "Baccalauréat S", date : "2016", lieu : "Lycée Louis Bascan"},
@@ -19,7 +20,8 @@ const competences = [
 ]
 
 const projets = [
-    {id : 0, nom : "StoriesHelper", lien : "https://storieshelper.ipssi-sio.fr/controllers/visitor/login.php", img : logoStoriesHelper}
+    {id : 0, nom : "StoriesHelper", lien : "https://storieshelper.ipssi-sio.fr/controllers/visitor/login.php", img : logoStoriesHelper},
+    {id : 0, nom : "Farmitoo", lien : "https://www.farmitoo.com/fr/", img : farmitoo},
 ]
 
 const Main = () => {
